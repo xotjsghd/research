@@ -1,0 +1,5 @@
+"id","prompt"
+"effusion_absent_cardiomegaly_absent","A frontal chest radiograph. There is no pleural effusion. The heart is normal in size."
+"effusion_present_cardiomegaly_absent","A frontal chest radiograph. There is pleural effusion. The heart is normal in size."
+"effusion_absent_cardiomegaly_present","A frontal chest radiograph. There is no pleural effusion. The heart is enlarged."
+"effusion_present_cardiomegaly_present","A frontal chest radiograph. There is pleural effusion. The heart is enlarged."

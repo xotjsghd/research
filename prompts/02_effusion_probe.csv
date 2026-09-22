@@ -1,0 +1,8 @@
+id,prompt
+no_effusion,A frontal chest radiograph with no pleural effusion.
+unspecified_effusion,A frontal chest radiograph showing a pleural effusion.
+small_left,A frontal chest radiograph showing a small left pleural effusion.
+large_left,A frontal chest radiograph showing a large left pleural effusion.
+small_right,A frontal chest radiograph showing a small right pleural effusion.
+large_right,A frontal chest radiograph showing a large right pleural effusion.
+bilateral,A frontal chest radiograph showing bilateral pleural effusions.
