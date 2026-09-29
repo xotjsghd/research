@@ -1,0 +1,9 @@
+id,prompt
+left_effusion,A frontal chest radiograph showing a left pleural effusion.
+right_effusion,A frontal chest radiograph showing a right pleural effusion.
+left_pneumothorax,A frontal chest radiograph showing a left pneumothorax.
+right_pneumothorax,A frontal chest radiograph showing a right pneumothorax.
+left_effusion_right_pneumothorax,"A frontal chest radiograph showing a left pleural effusion and a right pneumothorax."
+right_pneumothorax_left_effusion,"A frontal chest radiograph showing a right pneumothorax and a left pleural effusion."
+right_effusion_left_pneumothorax,"A frontal chest radiograph showing a right pleural effusion and a left pneumothorax."
+left_pneumothorax_right_effusion,"A frontal chest radiograph showing a left pneumothorax and a right pleural effusion."
