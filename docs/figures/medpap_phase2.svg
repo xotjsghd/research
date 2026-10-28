@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1510" viewBox="0 0 1800 1510"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="#526477"/></marker></defs><rect width="1800" height="1510" fill="white"/>
+<text x="65" y="48" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#718394" font-weight="600" text-anchor="start">MEDICAL ADAPTATION OF LINA  /  CHEST X-RAY</text>
+<text x="65" y="99" font-family="DejaVu Sans,sans-serif" font-size="42" fill="#182C40" font-weight="600" text-anchor="start">MedPAP — Phase 2</text>
+<text x="65" y="136" font-family="DejaVu Sans,sans-serif" font-size="21" fill="#53697B" font-weight="400" text-anchor="start">Online generation with adaptive medical-condition interventions</text>
+<rect x="40" y="170" width="1720" height="590" rx="12" fill="#FAFCFE" stroke="#DFE7EE" stroke-width="1.7"/>
+<text x="70" y="212" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#41698D" font-weight="600" text-anchor="start">01</text>
+<text x="125" y="212" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#182C40" font-weight="600" text-anchor="start">Prepare once per prompt</text>
+<text x="1725" y="212" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#607589" font-weight="400" text-anchor="end">Fixed embeddings and strengths are reused at every step</text>
+<rect x="40" y="875" width="1720" height="410" rx="12" fill="#FAFCFE" stroke="#DFE7EE" stroke-width="1.7"/>
+<text x="70" y="917" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#41698D" font-weight="600" text-anchor="start">02</text>
+<text x="125" y="917" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#182C40" font-weight="600" text-anchor="start">Repeat at every sampling step</text>
+<text x="1725" y="917" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#607589" font-weight="400" text-anchor="end">Same frozen Sana weights for all three conditions</text>
+<text x="1730" y="136" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="end">CheXGenBench-Sana-e20 · 512px</text>
+<path d="M310 390 H380" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M310 410 H335 V530 H1190 V500" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="720" y="553" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">original prompt X + empty prompt ∅</text>
+<path d="M520 310 V350" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M660 390 H695 V350 H750" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M695 390 V460 H750" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M1000 460 H1060" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M1330 452 H1410" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M180 445 V645 H380" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="195" y="635" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">same prompt X</text>
+<path d="M660 645 H750" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M1000 645 H1410" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1060" y="629" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">γ₁ for embedding calibration</text>
+<path d="M1555 500 V590" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1570" y="548" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">c, u</text>
+<path d="M875 300 V245 H1735 V635 H1700" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1500" y="233" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">selected token mask M</text>
+<rect x="80" y="350" width="230" height="95" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="195.0" y="382" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Prompt X</text>
+<text x="195.0" y="409" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Medical description</text>
+<rect x="380" y="230" width="280" height="80" rx="12" fill="#F0F3F6" stroke="#B4C0CC" stroke-width="1.7"/>
+<text x="520.0" y="262" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Rule-based Settings</text>
+<text x="520.0" y="289" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">From Phase 1 · based on R</text>
+<rect x="380" y="350" width="280" height="115" rx="12" fill="#FFF8ED" stroke="#CA9B52" stroke-width="1.7" stroke-dasharray="7 5"/>
+<text x="520.0" y="382" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#182C40" font-weight="600" text-anchor="middle">Medical Prompt Parser</text>
+<text x="520.0" y="409" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Select a combination of</text>
+<text x="520.0" y="433" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">finding · location · severity</text>
+<rect x="750" y="300" width="250" height="85" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="875.0" y="332" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Token Mask M</text>
+<text x="875.0" y="359" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Selected token positions</text>
+<rect x="750" y="420" width="250" height="85" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="875.0" y="452" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Neutral Prompt</text>
+<text x="875.0" y="479" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">X_neutral</text>
+<rect x="1060" y="405" width="270" height="95" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.7"/>
+<text x="1195.0" y="437" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Frozen Text Encoder</text>
+<text x="1195.0" y="464" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Sana / Gemma2</text>
+<rect x="1410" y="405" width="290" height="95" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="1555.0" y="437" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Text Embeddings</text>
+<text x="1555.0" y="464" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">c · c_neutral · u</text>
+<rect x="380" y="590" width="280" height="110" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.7"/>
+<text x="520.0" y="622" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Trained AIM Φ</text>
+<text x="520.0" y="649" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">From Phase 1</text>
+<text x="520.0" y="673" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Inference only · no updates</text>
+<rect x="750" y="590" width="250" height="110" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="875.0" y="622" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Adaptive Strengths</text>
+<text x="875.0" y="649" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">γ₁, γ₂_ratio</text>
+<text x="875.0" y="673" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">γ₂ = γ₀ × γ₂_ratio</text>
+<rect x="1410" y="590" width="290" height="110" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.7"/>
+<text x="1555.0" y="622" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Token Intervention</text>
+<text x="1555.0" y="649" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">c′ = c + γ₁ M ⊙ (c − u)</text>
+<text x="80" y="733" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">γ₀: fixed base CFG scale.  Rule-specific token selection and neutral construction are fixed before γ search.</text>
+<path d="M1675 500 H1720 V793 H650 V990" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="970" y="783" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">u and c_neutral</text>
+<path d="M1555 700 V823 H610 V990" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1160" y="815" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">calibrated condition c′</text>
+<path d="M875 700 V850 H1100 V965" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="925" y="842" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">γ₂ with fixed γ₀ · reused at every step</text>
+<path d="M340 1035 H455" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="350" y="1023" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">initial latent</text>
+<path d="M805 1045 H865" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<path d="M1275 1045 H1350" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1290" y="1027" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">ṽ_t</text>
+<path d="M1500 1090 V1225 H630 V1110" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="905" y="1214" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">next latent + next timestep → predict again</text>
+<path d="M340 1172 H425 V1090 H455" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="350" y="1155" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">t_i</text>
+<rect x="80" y="990" width="260" height="95" rx="12" fill="#F0F3F6" stroke="#B4C0CC" stroke-width="1.7"/>
+<text x="210.0" y="1022" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Initial Noise</text>
+<text x="210.0" y="1049" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Seed → z_init ~ N(0, I)</text>
+<rect x="80" y="1120" width="260" height="110" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.7"/>
+<text x="210.0" y="1152" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Shifted Schedule</text>
+<text x="210.0" y="1179" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">More steps at high noise</text>
+<text x="210.0" y="1203" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Same total step budget</text>
+<rect x="455" y="990" width="350" height="120" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.7"/>
+<text x="630.0" y="1022" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#182C40" font-weight="600" text-anchor="middle">Frozen Sana Linear DiT</text>
+<text x="630.0" y="1049" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">v_u · v_c′ · v_neutral</text>
+<text x="630.0" y="1073" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Same z_t and t for all branches</text>
+<rect x="865" y="965" width="410" height="170" rx="12" fill="white" stroke="#BDC9D5" stroke-width="1.7"/>
+<text x="1070" y="1000" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#182C40" font-weight="600" text-anchor="middle">Guidance Combination</text>
+<text x="1070" y="1040" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#182C40" font-weight="400" text-anchor="middle">ṽ_t = v_u + γ₀ (v_c′ − v_u)</text>
+<text x="1070" y="1074" font-family="DejaVu Sans,sans-serif" font-size="23" fill="#182C40" font-weight="400" text-anchor="middle">+ γ₂ (v_c′ − v_neutral)</text>
+<text x="1070" y="1110" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Fresh predictions at every step</text>
+<rect x="1350" y="990" width="310" height="100" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.7"/>
+<text x="1505.0" y="1022" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Sana Sampler</text>
+<text x="1505.0" y="1049" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Update current latent</text>
+<text x="80" y="1263" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">Guidance is applied throughout sampling; the schedule allocates more computation to the early high-noise region.</text>
+<path d="M1660 1040 H1730 V1388 H1660" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<text x="1710" y="1318" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="end">final latent</text>
+<rect x="1350" y="1340" width="310" height="95" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.7"/>
+<text x="1505.0" y="1372" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Frozen Decoder</text>
+<text x="1505.0" y="1399" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Sana DC-AE</text>
+<path d="M1350 1388 H1240" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#a)"/>
+<rect x="950" y="1340" width="290" height="95" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="1095.0" y="1372" font-family="DejaVu Sans,sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Generated CXR Y</text>
+<text x="1095.0" y="1399" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Final image</text>
+<text x="70" y="1360" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#182C40" font-weight="600" text-anchor="start">Shared with Phase 1 intervention search</text>
+<text x="70" y="1390" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="start">Same generator, token / neutral settings and sampling procedure.</text>
+<text x="70" y="1418" font-family="DejaVu Sans,sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="start">Phase 1 supplies candidate γ; Phase 2 uses AIM-predicted γ.</text>
+<rect x="70" y="1470" width="22" height="18" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.7"/>
+<text x="104" y="1485" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Frozen model</text>
+<rect x="330" y="1470" width="22" height="18" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.7"/>
+<text x="364" y="1485" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Output / representation</text>
+<rect x="690" y="1470" width="22" height="18" rx="12" fill="#FFF8ED" stroke="#CA9B52" stroke-width="1.7" stroke-dasharray="7 5"/>
+<text x="724" y="1485" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Medical-domain adaptation</text>
+<text x="1730" y="1485" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#718394" font-weight="400" text-anchor="end">Design schematic · efficacy to be evaluated</text>
+</svg>
