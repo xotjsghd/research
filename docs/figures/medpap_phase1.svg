@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1270" viewBox="0 0 1800 1270"><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9Z" fill="#526477"/></marker></defs><rect width="1800" height="1270" fill="white"/>
+<text x="65" y="49" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#718394" font-weight="600" text-anchor="start">MEDICAL ADAPTATION OF LINA  /  CHEST X-RAY</text>
+<text x="65" y="99" font-family="DejaVu Sans, sans-serif" font-size="42" fill="#182C40" font-weight="600" text-anchor="start">MedPAP — Phase 1</text>
+<text x="65" y="135" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#53697B" font-weight="400" text-anchor="start">Offline construction of medical supervision and training of the Adaptive Intervention Module (AIM)</text>
+<rect x="40" y="170" width="1720" height="310" rx="16" fill="#FAFCFE" stroke="#E0E7ED" stroke-width="1.6"/>
+<rect x="62" y="189" width="36" height="30" rx="8" fill="#203E59" stroke="#203E59" stroke-width="1.6"/>
+<text x="80" y="211" font-family="DejaVu Sans, sans-serif" font-size="18" fill="white" font-weight="600" text-anchor="middle">01</text>
+<text x="113" y="212" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#182C40" font-weight="600" text-anchor="start">Rules, prompts &amp; targets</text>
+<text x="1735" y="210" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#708293" font-weight="400" text-anchor="end">Define what the generated image should contain</text>
+<rect x="40" y="490" width="1720" height="330" rx="16" fill="#FAFCFE" stroke="#E0E7ED" stroke-width="1.6"/>
+<rect x="62" y="509" width="36" height="30" rx="8" fill="#203E59" stroke="#203E59" stroke-width="1.6"/>
+<text x="80" y="531" font-family="DejaVu Sans, sans-serif" font-size="18" fill="white" font-weight="600" text-anchor="middle">02</text>
+<text x="113" y="532" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#182C40" font-weight="600" text-anchor="start">Baseline generation &amp; evaluation</text>
+<text x="1735" y="530" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#708293" font-weight="400" text-anchor="end">Identify prompts and seeds that fail the target</text>
+<rect x="40" y="860" width="1720" height="310" rx="16" fill="#FAFCFE" stroke="#E0E7ED" stroke-width="1.6"/>
+<rect x="62" y="879" width="36" height="30" rx="8" fill="#203E59" stroke="#203E59" stroke-width="1.6"/>
+<text x="80" y="901" font-family="DejaVu Sans, sans-serif" font-size="18" fill="white" font-weight="600" text-anchor="middle">03</text>
+<text x="113" y="902" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#182C40" font-weight="600" text-anchor="start">Intervention search &amp; AIM training</text>
+<text x="1735" y="900" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#708293" font-weight="400" text-anchor="end">Learn prompt-specific intervention strengths</text>
+<path d="M340 281 H390" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M650 281 H710" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M975 281 H1040" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M845 370 V327" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1290 281 H1350" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1535 319 V337" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1550" y="332" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">fill template</text>
+<path d="M1165 327 V445 H1350" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="1180" y="435" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">clinical rules</text>
+<path d="M1535 385 V413" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1550" y="405" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">parse + rules</text>
+<rect x="80" y="235" width="260" height="92" rx="12" fill="#F0F3F6" stroke="#B4C0CC" stroke-width="1.6"/>
+<text x="210.0" y="276.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Chest ImaGenome</text>
+<text x="210.0" y="305.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Medical scene graphs</text>
+<rect x="390" y="235" width="260" height="92" rx="12" fill="#FFF8ED" stroke="#CA9B52" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="520.0" y="276.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Relation Mining</text>
+<text x="520.0" y="305.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Candidate relations</text>
+<rect x="710" y="235" width="265" height="92" rx="12" fill="#FFF8ED" stroke="#CA9B52" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="842.5" y="276.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Clinical Validation</text>
+<text x="842.5" y="305.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Review candidate rules</text>
+<rect x="710" y="370" width="265" height="65" rx="12" fill="#F0F3F6" stroke="#B4C0CC" stroke-width="1.6"/>
+<text x="842.5" y="397.5" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Clinical Knowledge</text>
+<text x="842.5" y="426.5" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#53697B" font-weight="400" text-anchor="middle">Literature / expert input</text>
+<rect x="1040" y="235" width="250" height="92" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1165" y="265" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Rule Set R</text>
+<text x="1165" y="292" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#53697B" font-weight="400" text-anchor="middle">Y_D → Y_I</text>
+<text x="1165" y="315" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">(severity-conditioned)</text>
+<rect x="1350" y="223" width="370" height="96" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.6"/>
+<text x="1535.0" y="266.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Prompt Template</text>
+<text x="1535.0" y="295.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">[severity] [side] [finding]</text>
+<rect x="1350" y="337" width="370" height="48" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1535.0" y="368.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Medical Prompts X</text>
+<rect x="1350" y="413" width="370" height="62" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1535" y="438" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Target CSG G*</text>
+<text x="1535" y="462" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">Expected findings &amp; relations</text>
+<path d="M1350 371 H1320 V488 H55 V624 H80" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="640" y="485" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">prompt X + random seed</text>
+<path d="M330 624 H365" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M595 624 H620 V589 H650" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M620 624 V699 H650" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M920 589 H1140" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="946" y="575" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">Geometry for Y_I</text>
+<path d="M920 699 H1090 V629 H1140" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="935" y="721" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">Finding evidence</text>
+<text x="935" y="741" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">&amp; grounding</text>
+<path d="M1270 655 V700" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1400 733 H1430 V645 H1460" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1535 475 V605" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1550" y="580" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">target</text>
+<path d="M1580 685 V730" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1595" y="712" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">mismatch</text>
+<path d="M1350 382 H1110 V792 H635 V737 H650" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<text x="755" y="784" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">finding phrase from X · grounding only</text>
+<rect x="80" y="577" width="250" height="94" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="205" y="607" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Frozen Sana-0.6B</text>
+<text x="205" y="633" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">CheXGenBench-Sana-e20</text>
+<text x="205" y="655" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">512px</text>
+<rect x="365" y="577" width="230" height="94" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="480.0" y="619.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Generated CXR Y</text>
+<text x="480.0" y="648.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Baseline image</text>
+<rect x="650" y="548" width="270" height="82" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="785.0" y="584.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">CXAS</text>
+<text x="785.0" y="613.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">Anatomy masks / geometry</text>
+<rect x="650" y="650" width="270" height="110" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="785" y="680" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">MAIRA-2</text>
+<text x="785" y="709" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Findings Generation</text>
+<text x="785" y="738" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">+ Phrase Grounding</text>
+<rect x="1140" y="558" width="260" height="97" rx="12" fill="#FFF8ED" stroke="#CA9B52" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="1270" y="591" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Finding &amp;</text>
+<text x="1270" y="618" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Geometric Checks</text>
+<text x="1270" y="642" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#53697B" font-weight="400" text-anchor="middle">Medical-domain adaptation</text>
+<rect x="1140" y="700" width="260" height="66" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1270.0" y="728.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Generated CSG</text>
+<text x="1270.0" y="757.0" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#53697B" font-weight="400" text-anchor="middle">Observed findings &amp; relations</text>
+<rect x="1460" y="605" width="250" height="80" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.6"/>
+<text x="1585.0" y="640.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Target Comparison</text>
+<text x="1585.0" y="669.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">G* vs. generated CSG</text>
+<rect x="1460" y="730" width="250" height="65" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1585.0" y="757.5" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Hard Cases</text>
+<text x="1585.0" y="786.5" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">(prompt X, seed)</text>
+<path d="M1580 795 V838 H55 V996 H80" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="680" y="833" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">hard cases and corresponding targets</text>
+<path d="M355 996 H420" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="390" y="1021" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">γ</text>
+<path d="M565 1037 V1073" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="579" y="1060" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">image</text>
+<path d="M420 1115 H220 V1037" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="247" y="1103" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">score feedback</text>
+<path d="M355 975 H380 V925 H880 V955" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="518" y="917" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#607589" font-weight="400" text-anchor="start">select optimal γ* → construct training pairs</text>
+<path d="M990 996 H1040" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1330 996 H1380" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="80" y="955" width="275" height="82" rx="12" fill="#FFFFFF" stroke="#BDC9D5" stroke-width="1.6"/>
+<text x="217.5" y="991.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#182C40" font-weight="600" text-anchor="middle">Intervention Labeling</text>
+<text x="217.5" y="1020.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">Coordinate descent (γ₁, γ₂)</text>
+<rect x="420" y="955" width="290" height="82" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="565.0" y="991.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Regenerate CXR</text>
+<text x="565.0" y="1020.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">Same frozen backbone</text>
+<rect x="420" y="1073" width="290" height="80" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="565.0" y="1108.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Medical Evaluator</text>
+<text x="565.0" y="1137.0" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#53697B" font-weight="400" text-anchor="middle">Reuse Block 02 + target G*</text>
+<rect x="770" y="955" width="220" height="82" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="880.0" y="991.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">D_hard</text>
+<text x="880.0" y="1020.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">(X, γ₁*, γ₂*)</text>
+<rect x="1040" y="955" width="290" height="82" rx="12" fill="#EAF2FC" stroke="#7198C8" stroke-width="1.6"/>
+<text x="1185.0" y="991.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">AIM Training</text>
+<text x="1185.0" y="1020.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Medical-mT5 + MLP</text>
+<text x="1185" y="1068" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">Frozen encoder · train MLP</text>
+<text x="1185" y="1093" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="middle">L2 target: (γ₁*, γ₂* / γ₀)</text>
+<rect x="1380" y="955" width="320" height="82" rx="12" fill="#E9F5EE" stroke="#78A78B" stroke-width="1.6"/>
+<text x="1540.0" y="991.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#182C40" font-weight="600" text-anchor="middle">Trained AIM Φ</text>
+<text x="1540.0" y="1020.0" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#53697B" font-weight="400" text-anchor="middle">Predicts (γ₁, γ₂ ratio)</text>
+<path d="M1540 1037 V1098" fill="none" stroke="#526477" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1540" y="1130" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#203E59" font-weight="600" text-anchor="middle">TO PHASE 2</text>
+<rect x="70" y="1201" width="25" height="19" rx="4" fill="#F0F3F6" stroke="#A6B5C3" stroke-width="1.6"/>
+<text x="106" y="1218" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Data</text>
+<rect x="250" y="1201" width="25" height="19" rx="4" fill="#FFFFFF" stroke="#A6B5C3" stroke-width="1.6"/>
+<text x="286" y="1218" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Process</text>
+<rect x="455" y="1201" width="25" height="19" rx="4" fill="#EAF2FC" stroke="#A6B5C3" stroke-width="1.6"/>
+<text x="491" y="1218" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Model</text>
+<rect x="650" y="1201" width="25" height="19" rx="4" fill="#E9F5EE" stroke="#A6B5C3" stroke-width="1.6"/>
+<text x="686" y="1218" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Output</text>
+<rect x="850" y="1201" width="25" height="19" rx="4" fill="#FFF8ED" stroke="#A6B5C3" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="886" y="1218" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#53697B" font-weight="400" text-anchor="start">Medical-domain additions / adaptations</text>
+<text x="65" y="1250" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#708293" font-weight="400" text-anchor="start">Design schematic · Model choices and clinical evaluation criteria remain subject to validation.</text>
+</svg>
