@@ -7,7 +7,8 @@
 |---|---|---|---|
 | 환경 | check_environment.py | Python·패키지·GPU 상태 출력 | 생성 |
 | 기본 생성 | generate_cxr.py | 단일/CSV 프롬프트 × seed → PNG·설정·manifest | 생성 |
-| 프롬프트 | prompts/smoke_test.csv | 공개적인 간단한 동작 확인 문장 | 생성 |
+| 프롬프트 | prompts/01_*.csv ~ 07_*.csv | 실험용 프롬프트 세트 01–07 (계획에 있던 smoke_test.csv는 만들지 않음) | 생성 |
+| 기준 평가 | eval_*_medgemma.py | 세트별 이미지 폴더 → MedGemma 판정 responses.jsonl (03–06 완료, 07 정식 평가 전) | 생성 |
 | 데이터 조사 | data_analysis/summarize_dataset.py | 허가된 로컬 데이터의 소견·위치 등 분포 요약 | 이후 |
 | 의료 규칙 | rules/build_rules.py, rules/clinical_rules.json | 후보+근거+검토 → 적용 조건·예외 포함 R | 이후 |
 | 문제 구성 | prompts/build_prompts.py | 선정한 조건·템플릿 → 프롬프트·기대 조건 | 이후 |
@@ -25,6 +26,12 @@
 | AIM | aim/model.py, train_aim.py | 텍스트 encoder+MLP → 개입 강도 회귀 | 이후 |
 | 온라인 생성 | generate_with_aim.py | X → gamma·비교 조건 → 의료 이미지 | 이후 |
 | 비교 실험 | experiments/compare_methods.py | CFG·생략 조건·오류 조건·AIM 비교 | 이후 |
+
+## 평가 결과 폴더 버전 (세트 06)
+
+- 저장소의 `evaluations/finding_independence_medgemma_v1/`이 README 수치의 근거인 실제 결과다.
+- `eval_independence_medgemma.py`의 `--out-dir` 기본값은 `..._v2`다. 기존 결과가 있으면 스크립트가 멈추므로(`--resume` 제외), 다시 실행하면 v1은 그대로 두고 v2 폴더에 새로 저장된다.
+- v1 기록의 질문 문구, 모델 commit, `max_new_tokens`(320)는 현재 코드와 같다. v2 결과는 저장소에 없다.
 
 ## 설계상 고정하지 않은 것
 
